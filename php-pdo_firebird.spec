@@ -8,8 +8,8 @@
 
 Summary:	Firebird/InterBase driver for PDO
 Name:		php-%{modname}
-Version:	5.2.9
-Release:	%mkrel 1
+Version:	5.3.0
+Release:	%mkrel 0.0.RC2.1
 Group:		Development/PHP
 URL:		http://www.php.net
 License:	PHP License
