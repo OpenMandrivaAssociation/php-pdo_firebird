@@ -1,5 +1,4 @@
 %define modname pdo_firebird
-%define dirname pdo_firebird
 %define soname pdo_firebird.so
 %define inifile 78_%{modname}.ini
 
@@ -32,7 +31,7 @@ libraries, PDO will emulate them for you.
 %prep
 
 %setup -c -T
-cp -dpR %{_usrsrc}/php-devel/extensions/%{dirname}/* .
+cp -dpR %{_usrsrc}/php-devel/extensions/pdo_firebird/* .
 
 %build
 %serverbuild
@@ -71,4 +70,3 @@ rm -rf %{buildroot}
 %doc CREDITS package*.xml tests
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
-
