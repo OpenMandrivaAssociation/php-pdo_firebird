@@ -10,7 +10,7 @@ Name:		php-%{modname}
 Version:	5.4.4
 Release:	2
 Group:		Development/PHP
-URL:		http://www.php.net
+URL:		https://www.php.net
 License:	PHP License
 Source0:	%{modname}.ini
 Requires:	php-pdo >= 0:%{version}
