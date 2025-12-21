@@ -14,6 +14,11 @@ URL:		https://www.php.net
 License:	PHP License
 Source0:	%{modname}.ini
 Requires:	php-pdo >= 0:%{version}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	firebird-devel
 Requires:	%{libname} >= 3:%{version}
